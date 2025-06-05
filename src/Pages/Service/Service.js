@@ -38,7 +38,8 @@ export const Service = () => {
           </div>
         ))
       }
-    </div></>
+    </div>
+    </>
    
   )
 }
