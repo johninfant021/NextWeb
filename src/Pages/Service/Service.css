@@ -12,6 +12,8 @@
 @media (max-width:600px) {
    #service{
     display: flex;
+    flex-direction: column;
+    padding: 10px;
     justify-content: space-around;
 }
 .service-desc{
