@@ -5,8 +5,12 @@
 .container{
   height: 100%;
   width: 100%;
-  background-color: rgb(216, 223, 225);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
-  row-gap: 50px;
+  row-gap: 0px;
+}
+.head-cont{
+  background-image: url('https://cdn.pixabay.com/photo/2022/04/04/16/41/technology-7111795_1280.jpg');
+  background-size: cover;
 }
