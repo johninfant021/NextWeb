@@ -5,6 +5,7 @@ import Banner from './Pages/Banner/Banner'
 import Client from './Pages/Client/Client'
 import Service from './Pages/Service/Service'
 import Whyus from './Pages/Why/Whyus'
+import Blog from './Pages/Blog/Blog'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Client/>
       <Service/>
       <Whyus/>
+      <Blog/>
     </div>
   )
 }
