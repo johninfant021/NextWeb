@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: skyblue;
+    color: white;
+}
+.header .comp-logo{
+    font-size: 20px;
+
+}
+.nav-link{
+    font-size: 20px;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.nav-link a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 7px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+.nav-link a:hover{
+    border-radius: 50% 20% / 10% 40%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.3s all ease-in-out;
+
+}
+@media (max-width:600px){
+    .header{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-link{
+        width: 100%;
+    }
+}
