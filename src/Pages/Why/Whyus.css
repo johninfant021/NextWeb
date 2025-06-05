@@ -38,14 +38,17 @@
 @media (max-width:600px) {
     .why-cont{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
 }
 .why-cont-main{
-    width: 30vw;
+    width: 50vw;
+    margin: 10px;
 }
     .why-img{
-    height: 150px;
+    height: 220px;
     width: 100%;
     margin: 0 auto;
 }
