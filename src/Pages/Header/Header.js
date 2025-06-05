@@ -6,7 +6,7 @@ const Header = () => {
     <header className="header">
       <div className="comp-logo">JI Consulting Services</div>
       <nav className="nav-link">
-        <a href="#services">Services</a>
+        <a href="#service">Services</a>
         <a href="#why">Why Us</a>
         <a href="#blogs">Blogs</a>
         <a href="#contact">Contact</a>

@@ -3,6 +3,7 @@ import Header from './Pages/Header/Header'
 import './App.css'
 import Banner from './Pages/Banner/Banner'
 import Client from './Pages/Client/Client'
+import Service from './Pages/Service/Service'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Header/>
       <Banner/>
       <Client/>
+      <Service/>
     </div>
   )
 }

@@ -23,7 +23,7 @@
   /* width: 100px;
   height: 100px;
   background: blue; */
-  animation: fadeIn 4s ease-in-out forwards;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 .head-info{
     margin: 10px auto;
