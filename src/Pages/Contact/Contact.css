@@ -19,6 +19,14 @@ label{
 
     font-size: 25px;
 }
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
 #user-name,#user-email,#message{
     height: 40px;
     width: 50vw;
