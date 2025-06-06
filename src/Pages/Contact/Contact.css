@@ -47,7 +47,7 @@ button{
     justify-content: flex-start;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 300px;
+    width: 50vw;
     margin: 0 auto 50px;
     padding: 50px;
     /* overflow: hidden; */
