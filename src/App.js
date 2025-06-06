@@ -11,13 +11,18 @@ const App = () => {
   return (
     <div className='container'>
       <Header/>
-      <div className='head-cont'>
+      <div className='app-cont'>
+        <div className='head-cont'>
         <Banner/>
       </div>
       <Client/>
-      <Service/>
+      <div className='service-bg'>
+        <Service/>
+      </div>
       <Whyus/>
       <Blog/>
+      </div>
+      
     </div>
   )
 }

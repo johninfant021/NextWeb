@@ -1,3 +1,4 @@
+
 .client-head{
     margin: 10px auto;
     text-align: center;
@@ -6,28 +7,31 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3rem;
     padding: 1rem;
+    
 }
-/* .client-head:hover{
-    text-decoration: underline;
-    transition: text-decoration 2s ease-in-out;
-} */
+.client-head:hover{
+   color: white;
+}
  .client-cont{
     display: flex;
     justify-content:space-around;
     padding-bottom: 10px;  
  }
- 
- @keyframes slide {
-  from {
-    transform: translateX(0);
+ .client-img{
+   position: static;
+ }
+
+ @keyframes MoveRTL {
+  0% {
+    transform: translateX(0%);
   }
-  to {
-    transform: translateX(200px);
+  100% {
+    transform: translateX(-200%);
   }
 }
 
  .client-cont-main{
-    animation: slide 5s ease-in-out infinite alternate;
+    animation: MoveRTL 10s linear infinite;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
  }
  .client-details{

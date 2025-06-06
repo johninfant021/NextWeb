@@ -6,11 +6,19 @@
   height: 100%;
   width: 100%;
   background-color: rgb(255, 255, 255);
+}
+.app-cont{
   display: flex;
   flex-direction: column;
-  row-gap: 0px;
+  row-gap: 50px;
 }
 .head-cont{
   background-image: url('https://cdn.pixabay.com/photo/2022/04/04/16/41/technology-7111795_1280.jpg');
   background-size: cover;
 }
+/* .service-bg{
+  background-image: url('https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionists-5975962_1280.jpg');
+
+  background-size: cover;
+  height: 500px;
+} */

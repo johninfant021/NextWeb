@@ -6,7 +6,7 @@
     margin: 20px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width: 75vw;
-    padding: 20px;
+    padding: 20px;  
     display: flex;
     letter-spacing: 1px;
     justify-content: center;
@@ -36,6 +36,6 @@
 
 .service-cont:hover{
     transform: scale(1.1);
-    background-color: skyblue;
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
