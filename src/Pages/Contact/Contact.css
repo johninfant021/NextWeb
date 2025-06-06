@@ -34,14 +34,19 @@ button{
 @media (max-width:600px) {
     .form-grid{
     display: grid;
-    grid-template-columns: 20vw 20vw;
+    grid-template-columns: 20vw 50vw;
     row-gap: 20px;
     justify-content: flex-start;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 400px;
+    width: 300px;
     margin: 0 auto 50px;
     padding: 50px;
-    overflow: hidden;
+    /* overflow: hidden; */
+}
+#user-name,#user-email,#message{
+    height: 40px;
+    /* padding: 10px; */
+    width: 28vw;
 }
 }
