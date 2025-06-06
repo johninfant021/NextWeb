@@ -39,5 +39,6 @@
     }
     .nav-link{
         width: 100%;
+        display: none;
     }
 }
