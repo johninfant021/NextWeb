@@ -9,11 +9,12 @@
     flex-direction: column;
 }
 .why-img{
-    height: 250px;
-    background-color: white;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    width: 75%;
-    margin: 0 auto;
+    height: 220px;
+    border-radius: 30px;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    width: 65%;
+    margin: 10px auto 0;
 }
 .why-details{
     margin: 10px;
@@ -47,9 +48,10 @@
     width: 70vw;
     margin: 20px;
 }
-    .why-img{
-    height: 220px;
-    width: 100%;
+.why-img{
+    height: 250px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 75%;
     margin: 0 auto;
 }
 .why-details .why-title{
