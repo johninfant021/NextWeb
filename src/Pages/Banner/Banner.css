@@ -35,16 +35,18 @@
     .banner-align{
       display: flex;
       flex-direction: column;
-      justify-content:flex-end;
-      align-items: end;
+      /* justify-content:flex-end;
+      align-items: end; */
       padding: 30px;
       background-color: white;
       
     }
 .head-info{
-  font-size: 30px;
+  font-size: 20px;
+  text-align: center;
 }
 .head-info-body{
   font-size: 20px;
+  text-align: center;
 }
 }
