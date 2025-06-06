@@ -65,6 +65,7 @@
     }
     .client-cont-main{
         animation: none;
+        width: 60vw;
         margin: 20px;
     }
     .client-img{
