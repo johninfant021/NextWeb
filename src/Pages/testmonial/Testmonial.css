@@ -25,9 +25,7 @@
     margin-top: 100px;
     animation: fadeIn 2s ease-in-out forwards;
 }
-.test-container{
-    margin-bottom: 150px;
-}
+
 .test-message-cont{
     margin: 20px;
     display: flex;
