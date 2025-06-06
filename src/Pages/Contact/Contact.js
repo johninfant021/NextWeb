@@ -49,6 +49,10 @@ const Contact = () => {
 
         <button type="submit">Send Message</button>
       </form>
+      <center>
+        <p>@john-infant</p>
+        <i>All rights reserved</i>
+      </center>
     </div>
   )
 }
