@@ -42,7 +42,7 @@ button{
 @media (max-width:600px) {
     .form-grid{
     display: grid;
-    grid-template-columns: 20vw 50vw;
+    grid-template-columns: 25vw 50vw;
     row-gap: 20px;
     justify-content: flex-start;
     align-items: center;
