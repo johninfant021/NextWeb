@@ -1,15 +1,16 @@
 #blogs{
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 10px;
 }
 .blog-image{
     height: 200px;
     width: 250px;
     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
 }
-.blog-link:hover{
-    transform: scale(1.5);
+.blog-cont:hover{
+    transform: scale(1.2);
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;    
 }
 @media (max-width:600px) {
     #blogs{

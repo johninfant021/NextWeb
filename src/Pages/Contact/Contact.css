@@ -1,0 +1,27 @@
+.form-grid{
+    display: grid;
+    grid-template-columns: 13vw 20vw;
+    /* column-gap: 5px; */
+    row-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 500px;
+    margin: 0 auto 50px;
+    padding: 50px;
+    overflow: hidden;
+}
+label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+#user-name,#user-email,#message{
+    height: 30px;
+    width: 15vw;
+}
+
+button{
+    height: 30px;           
+    width: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -6,6 +6,7 @@ import Client from './Pages/Client/Client'
 import Service from './Pages/Service/Service'
 import Whyus from './Pages/Why/Whyus'
 import Blog from './Pages/Blog/Blog'
+import Contact from './Pages/Contact/Contact'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       </div>
       <Whyus/>
       <Blog/>
+      <Contact/>
       </div>
       
     </div>
