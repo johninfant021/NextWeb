@@ -27,7 +27,7 @@ const Whyus = () => {
             {
                 reasons.map((item,index)=>(
                     <div className='why-cont-main'>
-                        <img className='why-img' src={item.icon} alt='Logo' height='250px' width='250px' />
+                        <img className='why-img' src={item.icon} alt='Logo' />
                         <div className='why-details'>
                             <h1 className='why-title'>{item.title}</h1>
                             <hr/>   

@@ -10,7 +10,7 @@
     
 }
 .client-head:hover{
-   color: white;
+   color: gray;
 }
  .client-cont{
     display: flex;
