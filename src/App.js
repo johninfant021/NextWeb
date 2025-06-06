@@ -7,6 +7,7 @@ import Service from './Pages/Service/Service'
 import Whyus from './Pages/Why/Whyus'
 import Blog from './Pages/Blog/Blog'
 import Contact from './Pages/Contact/Contact'
+import Testmonial from './Pages/testmonial/Testmonial'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       </div>
       <Whyus/>
       <Blog/>
+      <Testmonial/>
       <Contact/>
       </div>
       
