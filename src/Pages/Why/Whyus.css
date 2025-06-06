@@ -57,9 +57,9 @@
     margin: 20px;
 }
 .why-img{
-    height: 250px;
+    height: 150px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-    width: 75%;
+    width: 50%;
     margin: 0 auto;
 }
 .why-details .why-title{

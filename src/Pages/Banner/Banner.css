@@ -29,22 +29,22 @@
     .Banner{
         flex-direction: column;
         align-items:center;
-        justify-content:space-around;
-        margin-top: 30vh;
-        height: 30px;
-        float:right;
-        opacity: 0.6;
-        background-color: gold;
-        width: 50vw;
+        height:40vh;
+        float: right;
     }
-    .head-info{
-        font-size: 25px;
-        margin: 0;
-        width:70vw;
-        text-align: center;
-        /* line-height: 20px; */
+    .banner-align{
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-end;
+      align-items: end;
+      padding: 30px;
+      background-color: white;
+      
     }
-    .head-info-body{
-      font-size: 20px;
-    }
+.head-info{
+  font-size: 30px;
+}
+.head-info-body{
+  font-size: 20px;
+}
 }
